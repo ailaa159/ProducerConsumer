@@ -4,6 +4,10 @@ A GUI-based simulation of the classic **Producer-Consumer** synchronization prob
 
 The app visualizes a bounded buffer in real time, shows live semaphore and mutex state, and includes dedicated test modes for demonstrating race conditions and edge cases (full buffer, empty buffer, imbalanced producers/consumers).
 
+## Screenshot
+
+![Project simulation](simulation.png)
+
 ## Features
 
 - **Live buffer visualization** — 5 buffer slots update in real time (color-coded full/empty) via a `QTimer` polling every 500ms.
