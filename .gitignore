@@ -1,0 +1,29 @@
+# Qt build artifacts
+build/
+build-*/
+*.o
+*.obj
+Makefile
+Makefile.*
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qm
+.qmake.stash
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Compiled binaries
+*.app
+*.exe
+producerconsumer
+
+# Runtime-generated files
+simulation_log.txt
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
